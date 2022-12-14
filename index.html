@@ -7,21 +7,102 @@
     <title>Orellana's Construction</title>
     <link rel="stylesheet" href="main.css">
   </head>
+  <div class="container">
+    <img src="Compani copia3.png" alt="Snow" class="center">
+  </div>
   <body class="light-theme">
     <h1>Orellana's Construction</h1>
     <p id="msg"> Offer the following:</p>
     <ul>
-      <li></li>
       <li class="list">Framing</li>
-      <li class="list">Add light and dark themes</li>
-      <li>Enable switching the theme</li>
+      <li class="list">Sheetrock</li>
+      <li class="list">Finishing Drywall</li>
+      <li class="list">Paint</li>
+      <li class="list">And everything that needs to be done to have a complete house.</li>
     </ul>
-<div>
-  <button class="btn">Dark</button>
-</div>
     <script src="app.js"></script>
 <noscript>You need to enable JavaScript to view the full site.</noscript>
-<img src="ice cube.png" height="250">
+<!-- Container for the image gallery -->
+<div class="container">
 
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="framing.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="sheetrock1.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="finishing.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="paint.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="marble.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="trim.jpeg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="framing.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Framing">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="sheetrock1.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Sheetrock">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="finishing.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Finishing">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="paint.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Paint">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="marble.jpg" style="width:100%" onclick="currentSlide(5)" alt="Tile">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="trim.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Trim">
+    </div>
+  </div>
+  <div class="danger">
+    <p><strong>Did you know?</strong> Even Ice Cube knows us!</p>
+  </div>
+
+</div>
+<div class="container">
+  <img src="ice.png" alt="Ice Cube" style="width:90%;">
+  <div class="content">
+    <h1>Ice Cube</h1>
+    <p>Orellana's Construction.</p>
+  </div>
+</div>
+<div class="danger">
+  <p><strong>Warning!</strong> Being a large company we are hand in hand with OSHA and experienced people are required.</p>
+  <p><strong>Warning!</strong> Applications all available at any time.</p>
+</div>
+<p id="msg"> orellanasconstruction@gmail.com</p>
+<p id="msg"> +1 (479) 334-home</p>
 </body>
 </html>
